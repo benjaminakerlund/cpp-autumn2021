@@ -1,0 +1,36 @@
+
+NAVIGATE TO MODULE FOLDER
+PC	cd /mnt/c/Users/Benjamin/'OneDrive - Aalto University'/Aalto/C++/cpp-autumn2021
+LAP	cd /mnt/c/Users/benja/'OneDrive - Aalto University'/Aalto/C++/cpp-autumn2021
+
+START VSCODE HERE
+	code .
+	code <module-name>.code-workspace
+
+
+NAVIGATE TO TOWER DEFENSE
+cd /mnt/c/Users/Benjamin/'OneDrive - Aalto University'/Aalto/C++/cpp-autumn2021/Project/tower-defense-18
+
+
+
+GITLAB COMMANDS:
+	git config --global user.name "Åkerlund Benjamin"
+	git config --global user.email "benjamin.akelund@aalto.fi"
+	
+	git clone <address>
+
+	git remote rm origin
+	git remote add origin <address>
+	
+	git --set-upstream origin master
+	
+	git checkout <branch name if not alrdy>
+	
+	FIRST PUSH
+	git push -u origin <branch name>
+
+	git status
+	git add <filename>
+	git add . 		WHAT DOES THIS DO?
+	git commit -m "message :D"
+	git push
